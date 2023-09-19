@@ -1,0 +1,134 @@
+/* Reset de estilos padrão */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom,#9b59b6, #4b078a); /* Degrade de #4b078a para #9b59b6 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #4b078a, #9b59b6); 
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 10%;
+}
+
+
+button {
+    background-color: #6a0dad; 
+    color: #fff; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b078a; 
+}
+
+#discografia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center; 
+    padding: 20px;
+    text-align: center;
+}
+
+.album {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #4b078a, #9b59b6); 
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.album img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.album:hover {
+    transform: scale(1.05); 
+    background-image: linear-gradient(to bottom, #9b59b6, #4b078a); 
+}
+
+.album-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.album-description {
+    font-size: 14px;
+    color: #ccc; 
+}
+
+#contato {
+    background-color: #6a0dad; 
+    padding: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #9b59b6, #4b078a); 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #4b078a; 
+    text-align: center;
+    padding: 10px;
+}
+
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
